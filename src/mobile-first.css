@@ -27,3 +27,26 @@ h1 {
     background-color:orange;
     margin: 0 auto;  
 }
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 32px;
+    }
+
+    .container {
+        background-color: blue;
+        width: var(--tablet);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .container {
+        background-color: red;
+        width: var(--desktop);
+    }
+}
+   
