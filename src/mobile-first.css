@@ -1,0 +1,29 @@
+:root {
+    --desktop: 1200px;
+    --tablet: 1024px;
+    --phablet: 768px;
+    --mobile: 320px; 
+}
+
+html {
+    font-size: 4.5vw;
+}
+
+body,
+h1 {
+    margin: 0;
+}
+
+.container {
+    background-color: purple;
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color:orange;
+    margin: 0 auto;  
+}
